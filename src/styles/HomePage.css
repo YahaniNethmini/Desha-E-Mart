@@ -1,0 +1,42 @@
+/* HomePage.css */
+.text-decoration {
+    color: #301848; /* Dark purple color */
+}
+
+.homepage-container {
+    display: flex;
+    justify-content: center; /* Center the table within the container */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.homepage-table {
+    width: 100%; /* Make table take full width */
+}
+
+.logo-column,
+.text-column {
+    width: 50%; /* Each column takes 50% of the table width */
+    text-align: center; /* Center the content in each column */
+    vertical-align: middle; /* Center vertically within the table cell */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.logo-image {
+    max-width: 100%; /* Make logo responsive */
+    height: auto;
+}
+
+.button {
+    background-color: #9B1EA6; /* Initial background color */
+    color: white; /* Initial text color */
+    border-color: #9B1EA6; /* Remove default border */
+    padding: 10px 20px; /* Add some padding */
+    font-size: 16px; /* Adjust font size */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: white; /* Change background on hover */
+    color: #9B1EA6; /* Change text color on hover */
+}
